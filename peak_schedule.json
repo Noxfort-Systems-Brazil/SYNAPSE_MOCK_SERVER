@@ -1,0 +1,12 @@
+[
+  {
+    "days": [0, 1, 2, 3, 4],
+    "start_hour": 7,
+    "end_hour": 10
+  },
+  {
+    "days": [0, 1, 2, 3, 4],
+    "start_hour": 17,
+    "end_hour": 20
+  }
+]

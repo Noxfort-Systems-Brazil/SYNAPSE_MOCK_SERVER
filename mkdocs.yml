@@ -1,0 +1,150 @@
+# ==============================================================================
+# SYNAPSE MOCK SERVER — MkDocs Configuration (Material for MkDocs)
+# High-Frequency Telemetry & Synapse Protocol Test Harness
+# Copyright (C) 2026 — Noxfort Systems
+# ==============================================================================
+
+site_name: "SYNAPSE MOCK SERVER — Technical Documentation"
+site_description: "Internal technical documentation for SYNAPSE MOCK SERVER — High-Frequency Telemetry & Synapse Protocol Test Harness of the Noxfort ecosystem."
+site_author: "Gabriel Moraes — Noxfort Systems"
+copyright: "Copyright &copy; 2026 — Noxfort Systems"
+
+# ==============================================================================
+# Theme
+# ==============================================================================
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/server-network
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.path
+    - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+# ==============================================================================
+# Markdown Extensions
+# ==============================================================================
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+# ==============================================================================
+# Plugins
+# ==============================================================================
+plugins:
+  - search
+
+# ==============================================================================
+# Navigation
+# ==============================================================================
+nav:
+  - Overview: index.md
+  - Master MOC: SYNAPSE_MOCK_MOC.md
+  - Architecture & Protocols:
+      - Clean Architecture & SOLID: ARCHITECTURE.md
+      - Synapse HFT API (gRPC): API_REFERENCE.md
+      - Topology Analysis & Parsers: TOPOLOGY_ANALYSIS.md
+      - Realistic Traffic Simulation: TRAFFIC_SIMULATION.md
+  - UI & Operations:
+      - Tkinter UI & Test Harness: UI_AND_TEST_HARNESS.md
+      - Testing & Verification: TESTING.md
+      - Developer Guides: DEVELOPER_GUIDES.md
+      - Deployment & Packaging: DEPLOYMENT_AND_PACKAGING.md
+  - Multi-Language Suites:
+      - 🇺🇸 English:
+          - Hub: en/README.md
+          - Master MOC: en/synapse_mock_moc.md
+          - Architecture: en/architecture.md
+          - API Reference: en/api_reference.md
+          - Topology Analysis: en/topology_analysis.md
+          - Traffic Simulation: en/traffic_simulation.md
+          - UI & Test Harness: en/ui_and_test_harness.md
+          - Testing: en/testing.md
+          - Developer Guides: en/developer_guides.md
+          - Deployment: en/deployment_and_packaging.md
+      - 🇧🇷 Português (Brasil):
+          - Hub Central: pt-br/README.md
+          - MOC Mestre: pt-br/synapse_mock_moc.md
+          - Arquitetura: pt-br/architecture.md
+          - Referência da API: pt-br/api_reference.md
+          - Análise Topológica: pt-br/topology_analysis.md
+          - Simulação de Tráfego: pt-br/traffic_simulation.md
+          - UI e Test Harness: pt-br/ui_and_test_harness.md
+          - Testes & Validação: pt-br/testing.md
+          - Guias do Desenvolvedor: pt-br/developer_guides.md
+          - Deploy e Empacotamento: pt-br/deployment_and_packaging.md
+      - 🇪🇸 Español:
+          - Centro de Documentación: es/README.md
+          - Arquitectura: es/architecture.md
+          - Referencia API: es/api_reference.md
+          - Análisis Topológico: es/topology_analysis.md
+          - Simulación de Tráfico: es/traffic_simulation.md
+          - Interfaz y Pruebas: es/ui_and_test_harness.md
+          - Pruebas y Validación: es/testing.md
+      - 🇫🇷 Français:
+          - Hub de Documentation: fr/README.md
+          - Architecture: fr/architecture.md
+          - Référence API: fr/api_reference.md
+          - Analyse Topologique: fr/topology_analysis.md
+          - Tests & Validation: fr/testing.md
+      - 🇷🇺 Русский:
+          - Центр документации: ru/README.md
+          - Архитектура: ru/architecture.md
+          - Спецификация API: ru/api_reference.md
+          - Топологический анализ: ru/topology_analysis.md
+          - Тестирование: ru/testing.md
+      - 🇨🇳 简体中文:
+          - 技术文档中心: zh/README.md
+          - 系统架构: zh/architecture.md
+          - API 参考文档: zh/api_reference.md
+          - 拓扑分析引擎: zh/topology_analysis.md
+          - 测试与验证: zh/testing.md
+
+# ==============================================================================
+# Extra CSS
+# ==============================================================================
+extra_css:
+  - stylesheets/extra.css

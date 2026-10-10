@@ -1,0 +1,36 @@
+#!/bin/bash
+# Synapse Mock Server is an open-source test harness and telemetry simulator for the Synapse HFT protocol.
+# Copyright (C) 2026 Gabriel Moraes - Noxfort Systems
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# File: run.sh
+# Author: Gabriel Moraes
+# Date: 2026-10-10
+
+# Navega até o diretório do projeto (onde este script está)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+
+# Verifica e ativa o ambiente virtual (.venv ou venv)
+if [ -f ".venv/bin/activate" ]; then
+    source .venv/bin/activate
+elif [ -f "venv/bin/activate" ]; then
+    source venv/bin/activate
+else
+    echo "Erro: Ambiente virtual não encontrado em .venv ou venv."
+    exit 1
+fi
+
+# Executa o main.py repassando argumentos se houver
+python main.py "$@"
