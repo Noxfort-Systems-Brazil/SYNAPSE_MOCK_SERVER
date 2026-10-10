@@ -5,8 +5,6 @@ aliases: [Synapse Mock MOC, Master Documentation Hub, Documentation Index, Knowl
 
 <div align="center">
 
-<img src="assets/synapse-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="120" />
-
 # SYNAPSE MOCK SERVER Technical Master Documentation Hub
 ### Central Index & Client Architecture Knowledge Vault
 *Noxfort Systems — A State Of Art Company*

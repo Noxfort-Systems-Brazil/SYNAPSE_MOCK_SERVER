@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="../assets/synapse-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="120" />
-
 # SYNAPSE MOCK SERVER — Canonical English Hub
 ### High-Frequency Telemetry & Synapse Protocol Test Harness
 *Noxfort Systems — A State Of Art Company*

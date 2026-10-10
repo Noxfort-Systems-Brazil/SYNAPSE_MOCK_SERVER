@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="../assets/synapse-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="120" />
-
 # SYNAPSE MOCK SERVER — Hub de Documentação
 ### Central de Documentação Técnica e Guias do Desenvolvedor
 *Noxfort Systems — A State Of Art Company*

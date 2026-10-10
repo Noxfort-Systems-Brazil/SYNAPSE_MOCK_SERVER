@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="../assets/synapse-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="120" />
-
 # SYNAPSE MOCK SERVER — 技术文档中心
 ### 高频遥测测试基准与交通流仿真引擎
 *Noxfort Systems — A State Of Art Company*

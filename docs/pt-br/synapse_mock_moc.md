@@ -5,8 +5,6 @@ aliases: [MOC Synapse Mock, Hub de Documentação, Conhecimento]
 
 <div align="center">
 
-<img src="../assets/synapse-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="120" />
-
 # Hub Técnico de Documentação Mestre (MOC) — SYNAPSE MOCK SERVER
 ### Índice Central e Knowledge Vault do Ecossistema
 *Noxfort Systems — A State Of Art Company*

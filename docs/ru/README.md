@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="../assets/synapse-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="120" />
-
 # SYNAPSE MOCK SERVER — Центр документации
 ### Генератор высокочастотной телеметрии и симулятор дорожного трафика
 *Noxfort Systems — A State Of Art Company*

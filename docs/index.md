@@ -6,8 +6,6 @@ nav_order: 1
 
 <div align="center">
 
-<img src="assets/synapse-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="130" />
-
 # SYNAPSE MOCK SERVER
 ### High-Frequency Telemetry & Synapse Protocol Test Harness
 *Noxfort Systems — A State Of Art Company*
