@@ -5,7 +5,7 @@ aliases: [Synapse Mock Server, Root]
 
 <div align="center">
 
-<img src="docs/assets/carina-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="130" />
+<img src="docs/assets/synapse-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="130" />
 
 # SYNAPSE MOCK SERVER
 ### High-Frequency Telemetry (HFT) Client Test Harness & Traffic Simulator

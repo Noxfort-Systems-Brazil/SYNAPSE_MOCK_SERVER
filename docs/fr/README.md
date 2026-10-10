@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/carina-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="120" />
+<img src="../assets/synapse-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="120" />
 
 # SYNAPSE MOCK SERVER — Hub de Documentation
 ### Générateur de Télémétrie Haute Fréquence et Simulateur de Trafic

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/carina-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="120" />
+<img src="../assets/synapse-logo.png" alt="SYNAPSE MOCK SERVER Logo" width="120" />
 
 # SYNAPSE MOCK SERVER — Canonical English Hub
 ### High-Frequency Telemetry & Synapse Protocol Test Harness
