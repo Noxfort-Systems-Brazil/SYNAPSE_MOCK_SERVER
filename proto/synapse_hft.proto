@@ -15,7 +15,7 @@
 //
 // File: proto/synapse_hft.proto
 // Author: Gabriel Moraes
-// Date: 2026-10-10
+// Date: October 2026
 
 syntax = "proto3";
 

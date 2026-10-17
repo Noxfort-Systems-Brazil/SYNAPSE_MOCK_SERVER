@@ -15,7 +15,7 @@
 #
 # File: test_topology_analyzer.py
 # Author: Gabriel Moraes
-# Date: 2026-10-10
+# Date: October 2026
 
 #!/usr/bin/env python3
 """

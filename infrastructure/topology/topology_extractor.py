@@ -15,7 +15,7 @@
 #
 # File: infrastructure/topology/topology_extractor.py
 # Author: Gabriel Moraes
-# Date: 2026-10-10
+# Date: October 2026
 
 import xml.etree.ElementTree as ET
 from typing import Dict, List, Set, Any

@@ -16,7 +16,7 @@
 #
 # File: run.sh
 # Author: Gabriel Moraes
-# Date: 2026-10-10
+# Date: October 2026
 
 # Navega até o diretório do projeto (onde este script está)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

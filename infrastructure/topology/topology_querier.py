@@ -15,7 +15,7 @@
 #
 # File: infrastructure/topology/topology_querier.py
 # Author: Gabriel Moraes
-# Date: 2026-10-10
+# Date: October 2026
 
 from typing import Dict, List
 from infrastructure.topology.topology_extractor import EdgeInfo, JunctionInfo

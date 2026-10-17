@@ -15,7 +15,7 @@
 #
 # File: infrastructure/topology_analyzer.py
 # Author: Gabriel Moraes
-# Date: 2026-10-10
+# Date: October 2026
 
 """
 Topology Analyzer for SUMO .net.xml files.

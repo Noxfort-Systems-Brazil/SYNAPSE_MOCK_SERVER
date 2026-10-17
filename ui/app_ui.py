@@ -15,7 +15,7 @@
 #
 # File: ui/app_ui.py
 # Author: Gabriel Moraes
-# Date: 2026-10-10
+# Date: October 2026
 
 import tkinter as tk
 from tkinter import filedialog, messagebox

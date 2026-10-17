@@ -15,7 +15,7 @@
 #
 # File: interfaces.py
 # Author: Gabriel Moraes
-# Date: 2026-10-10
+# Date: October 2026
 
 from abc import ABC, abstractmethod
 from typing import Iterator
