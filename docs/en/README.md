@@ -8,7 +8,8 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)](https://python.org/)
 [![gRPC](https://img.shields.io/badge/gRPC-v1.62%2B-244c5a?style=flat&logo=grpc&logoColor=white)](https://grpc.io/)
 [![Protocol Buffers](https://img.shields.io/badge/Protobuf-v4.25%2B-blue?style=flat)](https://protobuf.dev/)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=flat)](../../LICENSE)
+[![SPDX License](https://img.shields.io/badge/SPDX--License--Identifier-Apache--2.0-blue.svg)](../../LICENSE)
+
 
 ---
 
@@ -45,5 +46,7 @@ Welcome to the canonical English technical documentation for **SYNAPSE MOCK SERV
 <div align="center">
   <img src="../assets/noxfort-logo.png" alt="Noxfort Systems Logo" width="45" /><br/>
   <b>Noxfort Systems</b> — <i>A State Of Art Company</i><br/>
-  <i>SYNAPSE MOCK SERVER v1.2.0 • Canonical Documentation</i>
+  <i>SYNAPSE MOCK SERVER v1.2.0 • Canonical Documentation</i><br/>
+  <small>Licensed under <a href="../../LICENSE">Apache 2.0</a> (SPDX-License-Identifier: <code>Apache-2.0</code>). © 2026 Gabriel Moraes - Noxfort Systems.</small>
 </div>
+

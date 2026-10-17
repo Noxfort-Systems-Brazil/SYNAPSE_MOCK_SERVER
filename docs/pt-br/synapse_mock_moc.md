@@ -25,7 +25,8 @@ Synapse_Mock_Server/
 ├── CONTRIBUTING.md             # Guia de contribuição e padrões SOLID
 ├── CODE_OF_CONDUCT.md         # Código de conduta da comunidade
 ├── SECURITY.md                 # Política de reporte de vulnerabilidades
-├── LICENSE                     # Licença Apache 2.0
+├── LICENSE                     # Licença Apache 2.0 (SPDX: Apache-2.0)
+├── pyproject.toml              # Configuração PEP 621/639 (SPDX: Apache-2.0)
 ├── requirements.txt            # Dependências em Python (grpcio, protobuf)
 ├── run.sh                      # Script de execução com ativação de ambiente
 ├── peak_schedule.json          # Tabela de horários de pico do agente ADAGIO
@@ -99,5 +100,7 @@ Synapse_Mock_Server/
 <div align="center">
   <img src="../assets/noxfort-logo.png" alt="Noxfort Systems Logo" width="45" /><br/>
   <b>Noxfort Systems</b> — <i>A State Of Art Company</i><br/>
-  <i>SYNAPSE MOCK SERVER v1.2.0 • Hub MOC</i>
+  <i>SYNAPSE MOCK SERVER v1.2.0 • Hub MOC</i><br/>
+  <small>Licenciado sob <a href="../../LICENSE">Apache 2.0</a> (SPDX-License-Identifier: <code>Apache-2.0</code>). © 2026 Gabriel Moraes - Noxfort Systems.</small>
 </div>
+

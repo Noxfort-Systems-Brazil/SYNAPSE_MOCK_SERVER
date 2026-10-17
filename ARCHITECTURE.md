@@ -229,5 +229,6 @@ Each 1-minute block randomly chooses one of 4 physical regimes:
   <img src="docs/assets/noxfort-logo.png" alt="Noxfort Systems Logo" width="45" /><br/>
   <b>Noxfort Systems</b> — <i>A State Of Art Company</i><br/>
   <i>Client Architecture Blueprint • SYNAPSE MOCK SERVER v1.2.0</i><br/>
-  <small>© 2026 Gabriel Moraes - Noxfort Systems. Licensed under Apache 2.0.</small>
+  <small>© 2026 Gabriel Moraes - Noxfort Systems. Licensed under Apache 2.0 (SPDX-License-Identifier: <code>Apache-2.0</code>).</small>
 </div>
+

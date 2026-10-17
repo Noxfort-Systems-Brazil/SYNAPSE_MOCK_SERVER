@@ -32,8 +32,41 @@ chmod +x run.sh
 
 ---
 
+## 3. Empacotamento Python & `pyproject.toml` (PEP 621 & PEP 639)
+
+O SYNAPSE MOCK SERVER fornece metadados modernos de empacotamento configurados em `pyproject.toml`, em total conformidade com a **PEP 621** (Metadados de Projeto) e a **PEP 639** (Expressões de Licença SPDX).
+
+### 3.1 Declaração Direta do Identificador SPDX
+Sob a PEP 639, a expressão da licença é declarada diretamente sob a seção `[project]` como uma string identificadora SPDX padronizada, eliminando campos de texto livre legados e classifiers depreciados:
+
+```toml
+[project]
+name = "synapse-mock-server"
+version = "1.2.0"
+description = "High-Frequency Telemetry (HFT) Client Test Harness & Traffic Simulator for the Synapse protocol"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+```
+
+### 3.2 Instalação Local & Entry Points de CLI
+O pacote disponibiliza um comando CLI nativo (`synapse-mock`) mapeado para o entry point `main:main`:
+
+```bash
+# Instalação em modo editável para desenvolvimento
+pip install -e .
+
+# Execução direta pelo comando CLI registrado
+synapse-mock
+```
+
+---
+
 <div align="center">
   <img src="../assets/noxfort-logo.png" alt="Noxfort Systems Logo" width="45" /><br/>
   <b>Noxfort Systems</b> — <i>A State Of Art Company</i><br/>
-  <i>SYNAPSE MOCK SERVER v1.2.0 • Deploy e Automação</i>
+  <i>SYNAPSE MOCK SERVER v1.2.0 • Deploy e Automação</i><br/>
+  <small>Licenciado sob <a href="../../LICENSE">Apache 2.0</a> (SPDX-License-Identifier: <code>Apache-2.0</code>). © 2026 Gabriel Moraes - Noxfort Systems.</small>
 </div>
+

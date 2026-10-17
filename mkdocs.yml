@@ -1,13 +1,16 @@
 # ==============================================================================
 # SYNAPSE MOCK SERVER — MkDocs Configuration (Material for MkDocs)
 # High-Frequency Telemetry & Synapse Protocol Test Harness
-# Copyright (C) 2026 — Noxfort Systems
+#
+# SPDX-FileCopyrightText: 2026 Gabriel Moraes - Noxfort Systems
+# SPDX-License-Identifier: Apache-2.0
 # ==============================================================================
 
 site_name: "SYNAPSE MOCK SERVER — Technical Documentation"
 site_description: "Internal technical documentation for SYNAPSE MOCK SERVER — High-Frequency Telemetry & Synapse Protocol Test Harness of the Noxfort ecosystem."
 site_author: "Gabriel Moraes — Noxfort Systems"
-copyright: "Copyright &copy; 2026 — Noxfort Systems"
+copyright: "Copyright &copy; 2026 — Noxfort Systems (Licensed under Apache-2.0)"
+
 
 # ==============================================================================
 # Theme
